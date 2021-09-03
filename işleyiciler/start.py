@@ -33,7 +33,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>✨ **Merhaba {message.from_user.first_name}** \n
-💭 **[{BOT_NAME}](https://t.me/Ellycarlmusicbot) Ben telegram Sesli sohbetlerinde şarkı dinletebilen Elly & Carl Müzik botuyum !**
+💭 **[{BOT_NAME}](https://t.me/Hatiralaramusicbot) Ben telegram Sesli sohbetlerinde şarkı dinletebilen Elly & Carl Müzik botuyum !**
 
 💡 **komut listemi öğrenmek için Komut butonuna tıklayınız » 📚 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗯𝘂𝘁𝘁𝗼𝗻 !**
 
@@ -43,10 +43,10 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url=f"https://t.me/Ellycarlmusicbot?startgroup=true")
+                        "➕ Add me to your Group ➕", url=f"https://t.me/HatiralaraMusicBot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                         "📚 Commands", url="https://telegra.ph/VEEZ-MUSIC-GUIDE-07-27"
+                         "📚 Commands", url="https://t.me/kizilsancakbilgi"
                     ),
                     InlineKeyboardButton(
                         "💝 BOT YAPTIRMAK İÇİN", url=f"https://t.me/kizilsancaksahibi")
@@ -61,7 +61,7 @@ async def start_(client: Client, message: Message):
                         "💜 Mango Botları ", url="https://t.me/Kizilsancakbilgi")
                 ],[
                     InlineKeyboardButton(
-                        "💎 PREMİUM 💎", url="https://github.com/levina-lab/VeezMusic"
+                        "💎 PREMİUM 💎", url="https://t.me/ucretlibotlar"
                     )
                 ]
             ]
@@ -81,7 +81,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url=f"https://t.me/Smailesi"
+                        "✨ Group", url=f"https://t.me/Mangodestek"
                     ),
                     InlineKeyboardButton(
                         "📣 Channel", url=f"https://t.me/Ucretlibotlar"
@@ -99,7 +99,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="❔ HOW TO USE ME", url=f"https://t.me/Ellycarlmusicbot?start=help"
+                        text="❔ HOW TO USE ME", url=f"https://t.me/HatiralaraMusicBot?start=help"
                     )
                 ]
             ]
@@ -170,7 +170,7 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ GROUP", url=f"https://t.me/smailesi"
+                        "✨ GROUP", url=f"https://t.me/MangoDestek"
                     ),
                     InlineKeyboardButton(
                         "📣 CHANNEL", url=f"https://t.me/ucretlibotlar"
